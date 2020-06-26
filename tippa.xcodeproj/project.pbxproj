@@ -10,9 +10,9 @@
 		35AE1CE224A6498B009BE439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AE1CE124A6498B009BE439 /* AppDelegate.swift */; };
 		35AE1CE424A6498B009BE439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AE1CE324A6498B009BE439 /* SceneDelegate.swift */; };
 		35AE1CE624A6498B009BE439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AE1CE524A6498B009BE439 /* ViewController.swift */; };
-		35AE1CE924A6498B009BE439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AE1CE724A6498B009BE439 /* Main.storyboard */; };
-		35AE1CEB24A6498C009BE439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AE1CEA24A6498C009BE439 /* Assets.xcassets */; };
 		35AE1CEE24A6498C009BE439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AE1CEC24A6498C009BE439 /* LaunchScreen.storyboard */; };
+		35AE1CF624A64D21009BE439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AE1CF524A64D21009BE439 /* Assets.xcassets */; };
+		35AE1CF824A64D2E009BE439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AE1CF724A64D2E009BE439 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		35AE1CE124A6498B009BE439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35AE1CE324A6498B009BE439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		35AE1CE524A6498B009BE439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		35AE1CE824A6498B009BE439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		35AE1CEA24A6498C009BE439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35AE1CED24A6498C009BE439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35AE1CEF24A6498C009BE439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35AE1CF524A64D21009BE439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/Tipsy-iOS13-master/Tipsy/Assets.xcassets"; sourceTree = "<group>"; };
+		35AE1CF724A64D2E009BE439 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,8 @@
 				35AE1CE124A6498B009BE439 /* AppDelegate.swift */,
 				35AE1CE324A6498B009BE439 /* SceneDelegate.swift */,
 				35AE1CE524A6498B009BE439 /* ViewController.swift */,
-				35AE1CE724A6498B009BE439 /* Main.storyboard */,
-				35AE1CEA24A6498C009BE439 /* Assets.xcassets */,
+				35AE1CF524A64D21009BE439 /* Assets.xcassets */,
+				35AE1CF724A64D2E009BE439 /* Main.storyboard */,
 				35AE1CEC24A6498C009BE439 /* LaunchScreen.storyboard */,
 				35AE1CEF24A6498C009BE439 /* Info.plist */,
 			);
@@ -126,8 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				35AE1CEE24A6498C009BE439 /* LaunchScreen.storyboard in Resources */,
-				35AE1CEB24A6498C009BE439 /* Assets.xcassets in Resources */,
-				35AE1CE924A6498B009BE439 /* Main.storyboard in Resources */,
+				35AE1CF824A64D2E009BE439 /* Main.storyboard in Resources */,
+				35AE1CF624A64D21009BE439 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		35AE1CE724A6498B009BE439 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35AE1CE824A6498B009BE439 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		35AE1CEC24A6498C009BE439 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
