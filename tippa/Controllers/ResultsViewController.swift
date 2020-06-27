@@ -1,4 +1,4 @@
-//
+    //
 //  ResultsViewController.swift
 //  tippa
 //
@@ -12,10 +12,23 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var settingsLabel: UILabel!
     
+    var result: Double = 0.0
+    var tip: Int = 0
+    var split: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        
+        totalLabel.text = String(result)
+               
+        settingsLabel.text = "Split between \(split) people, with \(tip)% tip."
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+       
     }
     
 
@@ -29,6 +42,9 @@ class ResultsViewController: UIViewController {
     }
     */
     @IBAction func recalculatePressed(_ sender: UIButton) {
+        self.dismiss(animated: false) {
+            print("yay")
+        }
     }
     
 }
